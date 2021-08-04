@@ -1,0 +1,306 @@
+/*PRésentation*/
+
+
+/*Fichier créer par Franck Maillot*/
+
+
+/*Variable*/
+
+:root {
+    --bg-primary: rgba(255, 255, 255, 0.800);
+    --color-p: #D99F6C;
+}
+
+
+/*Body*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/pizza-4968645_960_720.jpg") fixed no-repeat;
+}
+
+.title1 {
+    font-size: 2em;
+    text-shadow: 2px 2px 3px black;
+    color: #F2C299;
+    text-align: center;
+}
+
+.title2 {
+    font-size: 2em;
+    text-shadow: 2px 2px 3px black;
+    color: #D99F6C;
+    text-align: center;
+}
+
+.title2-d {
+    font-size: 2em;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    text-align: center;
+}
+
+.important {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.transition {
+    /*A Utiliser pour la galerie*/
+    position: absolute;
+    background: linear-gradient(180deg, transparent 0%, black 100%);
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+
+/*Flex*/
+
+.flex {
+    display: flex;
+}
+
+.flexflow1 {
+    flex-flow: column nowrap;
+}
+
+.flexflow2 {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+
+/*Card*/
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.800);
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card>a {
+    text-decoration: none;
+}
+
+.icone-c {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.icone-c-2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.card-2 {
+    background-color: rgba(255, 255, 255, 0.800);
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 15%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-3 {
+    margin-top: 2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 2px 16px;
+    width: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    font-size: .8em;
+    color: #fff;
+    width: 90%;
+    line-height: 1.15;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    padding: .95em 0;
+    border-radius: .5em;
+    background: rgba(0, 0, 0, 0.418);
+    margin: auto;
+}
+
+.button>a {
+    text-decoration: none;
+    Color: white;
+}
+
+.button {
+    transition: .3s;
+}
+
+.button:hover {
+    background: rgb(76, 76, 77);
+    color: var(--color-p)
+}
+
+.button:hover a {
+    color: var(--color-p)
+}
+
+
+/*Table*/
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.table>table {
+    text-align: center;
+    background: var(--bg-primary);
+    border-spacing: 0.2em;
+}
+
+.table>th {
+    margin-left: 0.5em;
+}
+
+
+/*Iframe*/
+
+.iframe-v {
+    display: none;
+}
+
+
+/*Image*/
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/*Display*/
+
+.mgl-10 {
+    margin-left: 10px;
+}
+
+.mgl-20 {
+    margin-left: 20px;
+}
+
+.mg-c {
+    margin: 0 auto;
+}
+
+.mg-b {
+    margin-bottom: 1.1em;
+}
+
+.radius {
+    border-radius: 10px;
+    width: 90px;
+    height: 65px;
+}
+
+
+/*Section Login*/
+
+.bloc {
+    width: 100%;
+    height: 100%;
+}
+
+.form-co {
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.input-lo {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.invalid {
+    border-color: #900;
+    background-color: #FDD;
+    color: black;
+}
+
+.valid {
+    border-color: green;
+    background-color: #00000033;
+    color: green;
+}
+
+.hidden-co {
+    display: none;
+}
+
+.visible-co {
+    display: block;
+}

@@ -1,0 +1,6 @@
+User-agent: Googlebot
+Disallow: /connection/
+Disallow: /validation/
+Allow: /menu/
+Allow: /contact/
+

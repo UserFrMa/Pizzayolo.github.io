@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/formulaire.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <!--Navigation-->
+        <nav class="a-header">
+            <input type="checkbox" name="main-nav" id="main-nav" class="burger-check">
+            <label for="main-nav" class="burger menu"><span>.</span></label>
+            <ul>
+                <li><a href="../Index.html">Acceuil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="title1">PizzaYOllO</h1>
+        <div class="btn-e">
+            <a class="mgl-20" href="connection.html">
+                <img class="icone" src="../img/icons8-connexion-50.png" alt="Connexion"></a>
+        </div>
+    </header>
+    <!--Formulaire-->
+    <main class="flex flexflow1 main-fm">
+        <div class="box-shadow">
+            <h2 class="title2">Contact</h2>
+            <p class="t-aline text">Toi aussi Précommande ta pizza ou partage tes avis a avec nous</p>
+        </div>
+
+        <div class="main-block">
+            <form class="contact" action="/">
+                <h1>Nous contacter</h1>
+                <div class="info">
+                    <div class="flex row">
+                        <div>
+                            <label for="name">Name</label>
+                            <input class="fm-bob" type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div>
+                            <label class="mgl-10" for="lastname">Last Name</label>
+                            <input class="fm-bob mgl-10 " type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <label for="mail">Email</label>
+                    <input class="section fname" type="text" id="mail" name="mail" placeholder="Adresse E-mail">
+
+
+                    <label for="raison" class="text-form">Raison du message</label>
+                    <div>
+                        <input id="raison" list="reason" name="reason">
+                        <datalist id="reason">
+                                <option value="Commande">
+                                <option value="Message">
+                            </datalist>
+                    </div>
+                    <div>
+                        <label for="commentaire">Votre demande</label>
+                        <textarea id="commentaire" class="commentaire" rows="4"></textarea>
+                    </div>
+                    <button class="button" type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+
+        <!--New user-->
+
+        <div class="box-shadow">
+            <h2 id="new-user" class='title2'> Inscription</h2>
+            <p class="text t-aline  ">Tu es la pour profitez du service livraison , T a la Bonne Place</p>
+        </div>
+        <div class="main-block">
+            <form class="contact" method="get" action="connection.html">
+
+                <div>
+                    <label class="hidden-co" for="login1">Validation</label>
+                    <input class="fm-bob2" id="login1" type="text" name="login" placeholder="Nom d'utilisateur">
+                </div>
+
+                <div>
+                    <label class="hidden-co" for="mail1">Validation</label>
+                    <input class="fm-bob2" type="text" id="mail1" name="mail" placeholder="Adresse E-mail">
+                </div>
+
+                <div>
+                    <label class="hidden-co" for="pass1">Validation</label>
+                    <input class="fm-bob2" id="pass1" type="password" name="pass" placeholder="Votre Mots de passe">
+                </div>
+
+                <div>
+
+                    <input id=submit class="button" type="submit" value="Créer un compte">
+                </div>
+            </form>
+        </div>
+
+        <footer class="flex footer">
+            <p>© Pizzayollo - Droit non assurer, arnaque 100%</p>
+            <div class="radius">
+                <a href="Index.html"><img class="logo" src="../img/233.jpg" alt="Logo"></a>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+
+</body>
+
+</html>

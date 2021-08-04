@@ -1,0 +1,39 @@
+        .galeri {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .galeri>h3 {
+            width: 115px;
+            height: 45px;
+            background-color: #D99F6C;
+            Color: white;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 2px;
+            margin-bottom: 5%;
+        }
+        
+        .flexchild {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .hidden-text {
+            display: none;
+            width: 300px;
+            height: 300px;
+        }
+        /*    position: absolute;
+    top: 0;
+    bottom: 0;
+    lef
+}
+
+.flexchild:hover .hidden-text {
+    display: block;
+}*/
+        /*Mettre dans les médias*/
